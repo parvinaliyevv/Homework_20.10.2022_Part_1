@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WordPad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="tools">
+            <div>
+                <select id="fonts">
+                    <option value="Helvetica">Helvetica</option>
+                    <option selected value="Calibri">Calibri</option>
+                    <option value="Arial">Arial</option>
+                    <option value="Verdana Bold">Verdana</option>
+                    <option value="Tahoma">Tahoma</option>
+                    <option value="Impact">Impact</option>
+                    <option value="Times New Roman">Times New Roman</option>
+                </select>
+                <select id="size">
+                    <option value="12">12</option>
+                    <option value="14">14</option>
+                    <option selected value="16">16</option>
+                    <option value="18">18</option>
+                    <option value="20">20</option>
+                    <option value="22">22</option>
+                    <option value="24">24</option>
+                    <option value="26">26</option>
+                    <option value="28">28</option>
+                    <option value="36">36</option>
+                    <option value="48">48</option>
+                    <option value="72">72</option>
+                </select>
+                <select id="colors">
+                    <option value="Red">Red</option>
+                    <option value="Green">Green</option>
+                    <option value="Blue">Blue</option>
+                    <option value="White">White</option>
+                    <option selected value="Black">Black</option>
+                    <option value="Yellow">Yellow</option>
+                </select>
+            </div>
+            <div>
+                <button id="bold-btn"><b>B</b></button>
+                <button id="italic-btn"><i>I</i></button>
+                <button id="underline-btn"><u>U</u></button>
+            </div>
+        </div>
+
+        <textarea></textarea>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.slim.js" integrity="sha256-dWvV84T6BhzO4vG6gWhsWVKVoa4lVmLnpBOZh/CAHU4=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
